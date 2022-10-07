@@ -1,0 +1,15 @@
+package com.yanola.yanolatetris.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.yanola.yanolatetris.entity.Group;
+
+
+@Repository
+public interface GroupRepository extends JpaRepository<Group, Long> {
+	Group findByGroupId(String id);
+	Group findByGourpIdAndGroupMileage(String id, String mileage)
+}

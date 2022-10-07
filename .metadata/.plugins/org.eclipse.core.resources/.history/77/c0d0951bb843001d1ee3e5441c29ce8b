@@ -1,0 +1,47 @@
+package com.yanola.yanolatetris.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder
+@NoArgsConstructor @AllArgsConstructor
+@Setter @Getter
+@Entity
+@Table(name="GAME_ITEM")
+@Component
+public class GameItem {
+	
+	@Id
+	@JoinColumn(name ="GAME_ITEM_MENU")
+	private String id;
+	
+	@Column
+	private String category;
+	
+	@Column
+	private String price;
+	
+	@Column
+	private boolean itemUsage;
+	
+	
+	
+	@Override
+	public String toString() {
+		return "GameItem [category=" + category + ", price=" + price + ", itemUsage=" + itemUsage + "]";
+	}
+	
+	
+	
+}

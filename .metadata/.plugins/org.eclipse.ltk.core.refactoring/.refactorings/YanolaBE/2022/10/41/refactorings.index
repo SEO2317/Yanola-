@@ -1,0 +1,18 @@
+1664864698947	Rename package 'com.yanola.YanolaTetris'
+1664864865206	Rename package 'com.yanola.yanolaTetris'
+1664864902200	Rename package 'com.yanola.service'
+1664864915291	Rename package 'com.yanola.repository'
+1664864928857	Rename package 'com.yanola.yanolatetiris.service'
+1664864936161	Rename package 'com.yanola.yanolatetiris.repository'
+1664864949185	Rename package 'com.yanola.entity'
+1664864966411	Rename package 'com.yanola.controller'
+1665036199505	Delete element
+1665036202484	Copy compilation unit
+1665036206411	Delete element
+1665036277603	Delete element
+1665045776486	Rename package 'com.javatechie.spring.ws.api.config'
+1665045796478	Rename package 'com.javatechie.spring.ws.api.controller'
+1665045801462	Rename package 'com.javatechie.spring.ws.api.model'
+1665047283620	Rename package 'com.yanola.yanolatetris.ws.api.config'
+1665047299150	Rename package 'com.yanola.yanolatetris.ws.api.controller'
+1665047311699	Rename package 'com.yanola.yanolatetris.ws.api.model'
